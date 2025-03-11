@@ -57,27 +57,3 @@ poetry run pytest
 
 ---
 
-# **5.3 Add Version Control with GitHub**
-
-## **1️⃣ Initialize a Git Repository**
-If not already done:
-```bash
-git init
-```
-
-## **2️⃣ Add and Commit Changes**
-```bash
-git add .
-git commit -m "Initial project structure and CLI implementation"
-```
-
-## **3️⃣ Create a GitHub Repository**
-1. Go to GitHub.
-2. Name the repository `pubmed_paper_fetcher`.
-3. Copy the repo URL.
-
-## **4️⃣ Link and Push to GitHub**
-```bash
-git remote add origin <your-repo-url>
-git branch -M main
-git push -u origin main
